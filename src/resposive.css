@@ -1,0 +1,123 @@
+@media (max-width: 1200px)
+{
+  nav .logo {
+    display: none;
+  }
+
+  .banner--bg{
+    top: -229px;
+  }
+
+  .banner--hero{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0px;
+  }
+  
+  .banner--hero span {
+    color: #FA3859;
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .title--area{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -407px;
+  }
+
+  .title--area h1{
+    max-width: 100%;
+  }
+
+  .btn--more{
+    margin-top: 100px;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .about--area {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .cards--area{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .title--jobs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .title--jobs h2{
+    width: 433px;
+  }
+
+  .card{
+    width: 438px;
+  }
+
+  .case--sucess{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .title--case{
+    margin-right: 40px;
+  }
+
+  .title--area button {
+    margin-bottom: 20px;
+  }
+
+  .case--jobs h2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .projects {
+    display: none;
+  }
+
+  .jobs{
+    position: relative;
+    align-items: center;
+  }
+
+  .customers {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feedback--area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feedback--area div{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 650px) {
+    
+    .jobs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
